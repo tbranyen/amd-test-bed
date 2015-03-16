@@ -1,13 +1,13 @@
 {
-  "name": "dashboard",
+  "name": "amd-test-bed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "http-server"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tim Branyen (@tbranyen)",
+  "license": "MIT",
   "dependencies": {
     "amd": "tbranyen/amd.js",
     "combyne": "^0.6.5"
