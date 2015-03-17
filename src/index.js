@@ -1,8 +1,8 @@
 define(function(require, exports, module) {
   'use strict';
 
-  var combyne = require('combyne');
-  var output = combyne('It {{ lol }}!', { lol: 'works' }).render();
+  var tmpl = require('./templates/test.html');
+  var output = tmpl.render({ lol: 'it works!' });
 
   console.log(output);
 });

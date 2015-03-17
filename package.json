@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "amd": "tbranyen/amd.js",
-    "combyne": "^0.6.5"
+    "combyne": "^0.6.5",
+    "combyne-amd-loader": "^0.1.1"
   },
   "devDependencies": {
     "http-server": "^0.7.5"
